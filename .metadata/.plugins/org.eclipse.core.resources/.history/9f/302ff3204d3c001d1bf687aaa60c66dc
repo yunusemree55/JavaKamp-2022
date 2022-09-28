@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person employee1 = new Employee(1,"Arthur", "Morgan", "Lawyer");
+		Person customer1 = new Customer(2,"Yunus Emre","Çiçek","1973508462");
+		
+
+	}
+
+}

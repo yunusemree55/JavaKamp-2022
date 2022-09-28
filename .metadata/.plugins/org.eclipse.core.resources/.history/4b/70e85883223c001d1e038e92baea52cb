@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		Math math = new Math();
+		
+		
+		math.Toplama(3, 5);
+		
+		math.Cikarma(3, 5);
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		Product product1 = new Product(1,"Elma",10,23,"Kırmızı yerli");
+		Product product2 = new Product(2, "Armut", 5, 10, "İthal büyük");
+		
+		
+		Product[] products = new Product[] {product1,product2};
+		
+		for(Product product: products) {
+			
+			product.getName();
+			
+		}
+		
+
+	}
+
+}
